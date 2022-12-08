@@ -1,0 +1,42 @@
+/* Tudo que estiver aqui, vai mudar no celular */
+@media (max-width: 600px) {
+
+    header {
+        padding: 12px;
+        justify-content: space-around;
+    }
+
+    header .logo {
+        font-size: 0.6rem;
+        width: 40%;
+    }
+
+    header .search {
+        display: none;
+    }
+
+    header .buttons_logo {
+        font-size: 0.6rem;
+        width: 40%;
+    }
+
+    header a+a {
+        margin-left: 12px;
+    }
+
+    .text_ad h1 {
+        margin: 10% 0% 0% 0%;
+        font-size: 2rem;
+    }
+
+    .text_ad p {
+        margin: 20px 20px;
+        font-size: 0.9rem;
+    }
+
+    .btn_how {
+        width: 40%;
+        font-size: 0.9rem;
+    }
+
+}

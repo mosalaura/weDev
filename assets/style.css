@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    border-bottom: 1px solid rgb(106, 104, 104);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    font-family: Arial;
+    font-size: 0.8rem;
+    width: 20%;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(106, 104, 104);
+}
+
+header h1 strong {
+    color: rgb(175, 55, 212);
+}
+
+/* pai da barra de pesquisa */
+.search {
+    width: 40%;
+    text-align: center;
+}
+
+/* barra de pesquisa */
+.search input {
+    padding: 1.5%;
+    border-radius: 20px;
+    border-style: solid;
+    font-size: 0,8rem;
+    width: 60%;
+}
+
+/* botão da barra de pesquisa */
+.search button {
+    border-style: none;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+/* .search button:hover {
+    color: #C78C19;
+    text-decoration: underline;
+} */
+
+/* botoes do header - anunciar e carrinho */
+.buttons_logo {
+    font-family: Arial;
+    font-size: 0.8rem;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a+a {
+    margin-left: 2.5%;
+}
+
+/* botão "anunciar" */
+.btn_ad {
+    padding: 10px;
+    background-color: rgb(175, 55, 212);
+    color: #fff;
+    border-style: none;
+    border-radius: 25px;
+}
+
+/* botão do carrinho */
+.btn_cart {
+    padding: 10px;
+    background-color: rgb(47, 47, 47);
+    color: #fff;
+    border-style: none;
+    border-radius: 25px;
+}
+
+/* text_ad é o título e subtítulo da página */
+
+.text_ad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_ad h1 {
+    margin: 6% 0% 0%;
+    text-align: center;
+    font-size: 2.6rem;
+    color: rgb(47, 47, 47);
+}
+
+.text_ad h1 strong {
+    color: rgb(175, 55, 212);
+}
+
+.text_ad p {
+    margin: 2% 0% 2%;
+    text-align: center;
+    font-size: 1.3rem;
+    color: rgb(106, 104, 104);
+}
+
+/* botão "como funciona?" */
+.btn_how {
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(175, 55, 212);
+    color: #fff;
+    border-style: none;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+/* category é o pai do título (h1) e dos produtos (products) */
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#category {
+    width: 70%;
+    margin-top: 60px;
+}
+
+.category h1 {
+    margin: 0 0 30px 40px;
+    text-align: left;
+    color: rgb(106, 104, 104);
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products li {
+    margin: 0 0 10px 10px;
+    width: 20%;
+    height: 255px;
+    display: inline-block;
+    align-items: center;
+    text-align: center; 
+    box-sizing: border-box;
+}
+
+.products li img {
+    width: 100%;
+    height: 80%;
+    border-radius: 25px;
+}
+
+.products li h2 {
+    margin: 6px 0px 0px 0px;
+    font-size: 0.8rem;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid rgb(106, 104, 104);
+    padding: 20px;
+    margin: 100px 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+footer div+div {
+    margin-left: 50px;
+}
