@@ -138,7 +138,7 @@ header a+a {
 }
 
 #category {
-    width: 80%;
+    width: 70%;
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -151,14 +151,14 @@ header a+a {
 
 .products {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px 1px
+    gap: 13px 1px;
 }
 
 .products li {
-    width: 20%;
-    height: 290px;
+    width: 23%;
+    height: 330px;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
