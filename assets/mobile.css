@@ -51,7 +51,8 @@
     }
 
     .products li {
-        height: 70px;
+        width: 35%;
+        height: 150px;
     }
 
     .products li img {
