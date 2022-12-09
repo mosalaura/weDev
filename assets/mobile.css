@@ -39,6 +39,14 @@
         font-size: 0.9rem;
     }
 
+    .products li {
+        height: 100px;
+    }
+
+    .products li img {
+        border-radius: 10px;
+    }
+
     footer {
         font-size: 0.6rem;
     }
