@@ -134,7 +134,8 @@ header a+a {
 }
 
 .btn_how:hover {
-    width: 220px;
+    width: 200px;
+    transition: 300ms;
     background-color: rgb(157, 63, 185);
     font-size: 1.2rem;
 }
