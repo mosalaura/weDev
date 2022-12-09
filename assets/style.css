@@ -173,6 +173,10 @@ header a+a {
 .products li h2 {
     margin: 6px 0px 0px 0px;
     font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 /* FOOTER */
