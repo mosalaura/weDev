@@ -45,14 +45,15 @@ header h1 strong {
     border-style: solid;
     font-size: 1rem;
     width: 80%;
+    cursor: pointer;
 }
 
 /* botão da barra de pesquisa */
-.search button {
+/* .search button {
     border-style: none;
     background-color: #fff;
     font-size: 1.2rem;
-}
+} */
 
 /* .search button:hover {
     color: #C78C19;
@@ -80,6 +81,7 @@ header a+a {
     color: #fff;
     border-style: none;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 /* botão do carrinho */
@@ -89,6 +91,7 @@ header a+a {
     color: #fff;
     border-style: none;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 /* text_ad é o título e subtítulo da página */
@@ -127,6 +130,13 @@ header a+a {
     width: 150px;
     border-radius: 25px;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn_how:hover {
+    width: 220px;
+    background-color: rgb(157, 63, 185);
+    font-size: 1.2rem;
 }
 
 /* category é o pai do título (h1) e dos produtos (products) */
