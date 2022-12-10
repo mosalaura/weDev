@@ -91,9 +91,9 @@ header a+a {
 
 /*   COMO FUNCIONA   */
 
-.title {
+#title_one {
     text-align: center;
-    margin: 40px 0px 30px 0px;
+    margin: 70px 0px 50px 0px;
 }
 
 /* astros é pai da section: texto e imagem (astro_div e text_div) */
@@ -139,9 +139,15 @@ header a+a {
 
 /* ESTAMOS AQUI POR VOCE */
 
+#title_two {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
 #por_voce {
-    padding: 1px 0px 1px 0px;
-    background-color: aqua;
+    margin: 100px 0px 0px 0px;
+    background-color: rgb(229, 136, 255);
 }
 
 /* pai da img e do p (astro_porvoce; astro_img; text_por_voce) */
@@ -168,6 +174,7 @@ header a+a {
 .text_por_voce {
     width: 50%;
     font-size: 1rem;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,6 +184,7 @@ header a+a {
 
 footer {
     width: 100%;
+    margin: 30px 0px 30px 0px;
     padding: 20px;
     font-size: 0.8rem;
     color: rgb(106, 104, 104);
