@@ -91,11 +91,12 @@ header a+a {
 
 /*   COMO FUNCIONA   */
 
-#tittle {
+.title {
     text-align: center;
-    margin: 55px 0px 55px 0px;
+    margin: 40px 0px 30px 0px;
 }
 
+/* astros é pai da section: texto e imagem (astro_div e text_div) */
 .astros {
     width: 100%;
     display: flex;
@@ -123,7 +124,7 @@ header a+a {
     width: 50%;
 }
 
-.text_one {
+.text_div {
     width: 50%;
     font-size: 1rem;
     display: flex;
@@ -131,7 +132,82 @@ header a+a {
     justify-content: center;
 }
 
-.text_one p strong {
+.text_div p strong {
     font-size: 1.7rem;
     color: rgb(157, 63, 185);
+}
+
+/* ESTAMOS AQUI POR VOCE */
+
+#por_voce {
+    padding: 1px 0px 1px 0px;
+    background-color: aqua;
+}
+
+/* pai da img e do p (astro_porvoce; astro_img; text_por_voce) */
+.por_voce {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.astro_porvoce {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 13px 1px;
+}
+
+.astro_porvoce img {
+    width: 50%;
+}
+
+.text_por_voce {
+    width: 50%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: rgb(106, 104, 104);
+    display: flex;
+    justify-content: center;
+}
+
+footer div+div {
+    margin-left: 50px;
+}
+
+.container_footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact p+p {
+    padding-top: 5px;
+}
+
+#copy {
+    width: 50%;
+    display: flex;
+    justify-content: center;
 }
