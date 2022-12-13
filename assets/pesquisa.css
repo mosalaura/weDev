@@ -4,11 +4,12 @@
     justify-content: center;
 }
 
-#title_one {
+#title_result {
     width: 80%;
     display: flex;
     align-items: center;
     padding: 60px 0px 30px 0px;
+    font-size: 1.6rem;
 }
 
 .section_buttons {
@@ -66,6 +67,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .product li {
@@ -110,4 +112,68 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     font-size: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    border-top: 1px solid rgb(106, 104, 104);
+    padding: 20px;
+    font-size: 0.8rem;
+    color: rgb(106, 104, 104);
+    display: flex;
+    justify-content: center;
+}
+
+footer div+div {
+    margin-left: 50px;
+}
+
+.container_footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact p+p {
+    padding-top: 5px;
+}
+
+#copy {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+
+    #title_result {
+        font-size: 1.2rem;
+    }
+    
+    .btn_filter {
+        padding: 9px;
+        font-size: 0.7rem;
+        border-radius: 10px;
+    }
+    
+    .btn_relevance {
+        font-size: 0.7rem;
+        border-radius: 10px;
+    }
+
+    .product li {
+        width: 100%;
+    }
+    
 }
