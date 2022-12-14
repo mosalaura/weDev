@@ -59,7 +59,7 @@ header h1 strong {
 .buttons_logo {
     font-family: Arial;
     font-size: 0.9rem;
-    width: 20%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,15 +67,6 @@ header h1 strong {
 
 header a+a {
     margin-left: 2.5%;
-}
-
-.btn_category {
-    padding: 10px;
-    background-color: rgb(175, 55, 212);
-    color: #fff;
-    border-style: none;
-    border-radius: 25px;
-    cursor: pointer;
 }
 
 /* botão "anunciar" */
@@ -120,17 +111,17 @@ header a+a {
     }
 
     .btn_ad {
-        padding: 15px;
+        padding: 10px;
         border-radius: 25px;
     }
 
     /* botão do carrinho */
     .btn_cart {
-        padding: 15px;
+        padding: 10px;
         border-radius: 25px;
     }
 
     header a+a {
-        margin-left: 12px;
+        margin-left: 4px;
     }
 }
