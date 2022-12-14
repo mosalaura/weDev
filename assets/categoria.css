@@ -1,5 +1,126 @@
+.div_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+#title_category {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 60px 0px 30px 0px;
+    font-size: 1.6rem;
+}
+
+.section_products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div_products {
+    width: 90%;
+    margin: 30px 0px 0px 0px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 1%;
+    margin-bottom: 20px;
+}
+
+.product li {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border: 1.5px solid rgb(106, 104, 104);
+    border-radius: 10px;
+}
+
+.product li img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.product_text {
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+    display: flex;
+}
+
+.product_text h2 {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(67, 67, 67);
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    border-top: 1px solid rgb(106, 104, 104);
+    padding: 20px;
+    font-size: 0.8rem;
+    color: rgb(106, 104, 104);
+    display: flex;
+    justify-content: center;
+}
+
+footer div+div {
+    margin-left: 50px;
+}
+
+.container_footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact p+p {
+    padding-top: 5px;
+}
+
+#copy {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 600px) {
+    
+    #title_category {
+        font-size: 1.3rem;
+    }
 
+    .div_products {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .product {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .product li {
+        width: 40%;
+        height: 170px;
+    }
 }
