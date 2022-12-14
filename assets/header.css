@@ -88,3 +88,40 @@ header a+a {
     border-radius: 25px;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 12px;
+        justify-content: space-around;
+    }
+
+    header .logo {
+        font-size: 0.7rem;
+        width: 50%;
+    }
+
+    header .search {
+        display: none;
+    }
+
+    header .buttons_logo {
+        font-size: 0.7rem;
+        width: 50%;
+    }
+
+    .btn_ad {
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    /* botão do carrinho */
+    .btn_cart {
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    header a+a {
+        margin-left: 12px;
+    }
+}

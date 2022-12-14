@@ -129,3 +129,43 @@ footer div+div {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 600px) {
+    #title_two {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .astro_div {
+        width: 90%;
+    }
+
+    .astro_div img {
+        width: 90%;
+    }
+
+    .text_div {
+        width: 40%;
+        font-size: 0.8rem;
+    }
+    
+    .text_div p strong {
+        font-size: 1.5rem;
+    }
+    
+    .astro_porvoce {
+        width: 90%;
+    }
+    
+    .astro_img {
+        width: 50%;
+    }
+
+    .astro_porvoce img {
+        width: 100%;
+    }
+    
+    .text_por_voce {
+        width: 50%;
+        font-size: 0.7rem;
+    }
+}
