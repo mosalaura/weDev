@@ -69,6 +69,15 @@ header a+a {
     margin-left: 2.5%;
 }
 
+.btn_category {
+    padding: 10px;
+    background-color: rgb(175, 55, 212);
+    color: #fff;
+    border-style: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 /* botão "anunciar" */
 .btn_ad {
     padding: 10px;
