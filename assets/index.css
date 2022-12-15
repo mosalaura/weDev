@@ -46,19 +46,18 @@
 
 /* category é o pai do título (h1) e dos produtos (products) */
 
-.category {
+.featured {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#category {
+#featured {
     width: 70%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px 0px 50px 0px;
 }
 
-.category h1 {
+.featured h1 {
     margin: 0px 0px 20px 0px;
     text-align: left;
     color: rgb(106, 104, 104);
@@ -66,14 +65,13 @@
 
 .products {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 13px 1px;
+    gap: 20px 1%;
 }
 
 .products li {
-    width: 23%;
-    height: 330px;
+    width: 15.83%;
+    height: 300px;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
@@ -81,7 +79,7 @@
 
 .products li img {
     width: 100%;
-    height: 80%;
+    height: 90%;
     border-radius: 25px;
 }
 
@@ -92,6 +90,127 @@
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#category {
+    width: 70%;
+    font-size: 0.6rem;
+    color: rgb(81, 81, 81);
+}
+
+.category a {
+    color: rgb(106, 104, 104);
+}
+
+.category a:hover {
+    transition: 300ms;
+    color: rgb(157, 63, 185);
+    font-size: 0.7rem;
+}
+
+.section_ad {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div_ad {
+    width: 70%;
+}
+
+.section_ad h1 {
+    margin: 0px 0px 20px 0px;
+    text-align: left;
+    color: rgb(106, 104, 104);
+}
+
+.ad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 1%;
+    margin-bottom: 100px;
+}
+
+.ad li {
+    width: 15.83%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+}
+
+.ad li img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ad_text {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    padding: 10px 0px;
+}
+
+.ad_text h2 {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.9rem;
+    color: rgb(81, 81, 81);
+    align-items: center;
+    margin: 0% 6%;
+}
+
+.section_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div_info {
+    width: 70%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 1%;
+    margin-bottom: 60px;
+}
+
+.info li {
+    width: 22.33%;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+}
+
+.info h1 {
+    margin: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(144, 144, 144);
+    font-weight: 100;
+}
+
+.info h2 {
+    margin: 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(168, 168, 168);
+    font-weight: 100;
 }
 
 /* FOOTER */
@@ -151,12 +270,21 @@ footer div+div {
     }
 
     .products li {
-        width: 40%;
-        height: 150px;
+        width: 32.67%;
+        height: 160px;
     }
 
     .products li img {
         border-radius: 10px;
+    }
+
+    .ad li {
+        width: 49.40%;
+    }
+
+    .info li {
+        width: 100%;
+        height: 100px;
     }
 
     footer {
