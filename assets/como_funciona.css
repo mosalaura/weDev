@@ -35,7 +35,7 @@
 
 .text_div {
     width: 50%;
-    font-size: 1rem;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@
 
 .text_por_voce {
     width: 50%;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
