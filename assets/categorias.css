@@ -165,10 +165,11 @@ footer div+div {
     .product {
         display: flex;
         justify-content: space-around;
+        gap: 20px 2%;
     }
 
     .product li {
-        width: 40%;
+        width: 49%;
         height: 170px;
     }
 
