@@ -58,8 +58,8 @@ header h1 strong {
 /* botoes do header - anunciar e carrinho */
 .buttons_logo {
     font-family: Arial;
-    font-size: 0.9rem;
-    width: 30%;
+    font-size: 1rem;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,9 +69,8 @@ header a+a {
     margin-left: 2.5%;
 }
 
-/* botão "anunciar" */
-.btn_ad {
-    padding: 10px;
+.btn_login {
+    padding: 12px;
     background-color: rgb(175, 55, 212);
     color: #fff;
     border-style: none;
@@ -79,15 +78,25 @@ header a+a {
     cursor: pointer;
 }
 
+/* botão "anunciar" */
+/* .btn_ad {
+    padding: 10px;
+    background-color: rgb(175, 55, 212);
+    color: #fff;
+    border-style: none;
+    border-radius: 25px;
+    cursor: pointer;
+} */
+
 /* botão do carrinho */
-.btn_cart {
+/* .btn_cart {
     padding: 10px;
     background-color: rgb(81, 81, 81);
     color: #fff;
     border-style: none;
     border-radius: 25px;
     cursor: pointer;
-}
+} */
 
 @media (max-width: 600px) {
 
