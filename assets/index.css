@@ -385,6 +385,11 @@ footer div+div {
         height: 70%;
     }
 
+    .ad_text h2 {
+        -webkit-line-clamp: 3;
+        font-size: 0.8rem;
+    }
+
     .info li {
         width: 100%;
         height: 100px;
