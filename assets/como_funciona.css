@@ -168,4 +168,8 @@ footer div+div {
         width: 50%;
         font-size: 0.7rem;
     }
+
+    footer {
+        font-size: 0.6rem;
+    }
 }
