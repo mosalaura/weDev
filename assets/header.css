@@ -69,8 +69,11 @@ header a+a {
     margin-left: 2.5%;
 }
 
-.btn_login {
+#btn_login {
+    width: 40%;
     padding: 12px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(175, 55, 212);
     color: #fff;
     border-style: none;
@@ -78,8 +81,13 @@ header a+a {
     cursor: pointer;
 }
 
+#btn_login a:hover {
+    opacity: 70%;
+    transition: 300ms;
+}
+
 /* botão "anunciar" */
-/* .btn_ad {
+/* #btn_ad {
     padding: 10px;
     background-color: rgb(175, 55, 212);
     color: #fff;
@@ -89,7 +97,7 @@ header a+a {
 } */
 
 /* botão do carrinho */
-/* .btn_cart {
+/* #btn_cart {
     padding: 10px;
     background-color: rgb(81, 81, 81);
     color: #fff;
