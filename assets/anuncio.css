@@ -1,0 +1,218 @@
+#page_ad {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0%;
+}
+
+.page_ad {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page_img {
+    width: 30%;
+    height: 200px;
+}
+
+.page_ad img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.page_title {
+    width: 45%;
+    height: 200px;
+    display: grid;
+    align-content: stretch;
+    margin-left: 3%;
+}
+
+.page_title h2 {
+    color: rgb(67, 67, 67);
+}
+
+.page_title h3 {
+    font-size: 1.4rem;
+    color: rgb(163, 53, 196);
+}
+
+.page_seller {
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 20%;
+    display: grid;
+    align-content: space-around;
+    justify-content: center;
+    padding: 15px;
+}
+
+.page_seller h2 {
+    color: rgb(67, 67, 67);
+}
+
+.page_seller h3 {
+    color: rgb(178 92 205);
+}
+
+.page_seller p {
+    color: #696c6c;
+}
+
+/* DESCRIÇÃO DO ANÚNCIO */
+
+#description {
+    width: 100%;
+    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#div_description {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    width: 75%;
+    padding: 15px 25px 10px 25px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+}
+
+.description h1 {
+    color: rgb(67, 67, 67)
+}
+
+.description p {
+    margin: 10px 0px 10px 0px;
+    color: #696c6c;
+}
+
+.description hr {
+    margin: 25px 0px;
+}
+
+/* GARANTIA - warranty */
+
+.warranty {
+    width: 25%;
+    height: 140px;
+    margin-left: 20%;
+    padding: 15px 25px 10px 25px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+    display: grid;
+    align-content: space-evenly;
+    justify-content: center;
+    padding: 15px;
+}
+
+.warranty h2 {
+    color: rgb(67, 67, 67);
+}
+
+.warranty p {
+    display: flex;
+    justify-content: center;
+    color: #696c6c;
+}
+
+/* INFO */
+
+.section_info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.div_info {
+    width: 70%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 1%;
+    margin-bottom: 60px;
+}
+
+.info li {
+    width: 28.33%;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+}
+
+.info h1 {
+    margin: 15px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(144, 144, 144);
+    font-weight: 100;
+}
+
+.info h2 {
+    margin: 15px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(168, 168, 168);
+    font-weight: 100;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    border-top: 1px solid rgb(106, 104, 104);
+    padding: 20px;
+    font-size: 0.8rem;
+    color: rgb(106, 104, 104);
+    display: flex;
+    justify-content: center;
+}
+
+footer div+div {
+    margin-left: 50px;
+}
+
+.container_footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact p+p {
+    padding-top: 5px;
+}
+
+#copy {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+
+    .info li {
+        width: 100%;
+        height: 100px;
+    }
+
+    footer {
+        font-size: 0.6rem;
+    }
+}
