@@ -67,7 +67,7 @@
 
 #description {
     width: 100%;
-    margin: 100px 0px;
+    margin: 100px 0px 10px 0px;
     display: flex;
     justify-content: center;
 }
@@ -121,6 +121,59 @@
     display: flex;
     justify-content: center;
     color: #696c6c;
+}
+
+/* BOTÃO DENUNCIAR */
+
+.denounce {
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.denounce a {
+    width: 57%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: end;
+    color: rgb(175, 55, 212);
+    cursor: pointer;
+    font-size: 0.9rem
+}
+
+/* PERGUNTAS */
+
+#questions {
+    width: 100%;
+    margin: 100px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#div_questions {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.questions {
+    width: 75%;
+    padding: 15px 25px 10px 25px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+}
+
+.questions h1 {
+    color: rgb(67, 67, 67)
+}
+
+.questions p {
+    margin: 10px 0px 10px 0px;
+    color: #696c6c;
+}
+
+.questions hr {
+    margin: 25px 0px;
 }
 
 /* INFO */

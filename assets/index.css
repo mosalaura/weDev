@@ -1,3 +1,7 @@
+:root {
+    --slow: 300ms;
+}
+
 /* text_ad é o título e subtítulo da página */
 
 .text_ad {
@@ -35,11 +39,12 @@
     border-radius: 25px;
     font-size: 1rem;
     cursor: pointer;
+    transition: var(--slow);
 }
 
 .btn_how:hover {
     width: 200px;
-    transition: 300ms;
+    transition: var(--slow);
     background-color: rgb(157, 63, 185);
     font-size: 1.2rem;
 }
@@ -81,6 +86,7 @@
     width: 100%;
     height: 90%;
     border-radius: 25px;
+    object-fit: cover;
 }
 
 .popularity li h2 {
@@ -113,7 +119,7 @@
 }
 
 .category a:hover {
-    transition: 300ms;
+    transition: var(--slow);
     color: rgb(157, 63, 185);
     font-size: 0.7rem;
 }
@@ -160,6 +166,7 @@
     width: 100%;
     height: 60%;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .product_text {
@@ -233,6 +240,7 @@
     width: 100%;
     height: 80%;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 .ad_text {
@@ -252,6 +260,7 @@
     color: rgb(81, 81, 81);
     align-items: center;
     margin: 0% 6%;
+    text-transform: lowercase;
 }
 
 /* INFO */
