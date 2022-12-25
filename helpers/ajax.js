@@ -1,4 +1,4 @@
-const backendBaseUrl = "http://127.0.0.1:8000/api"; // LOCAL
+const backendBaseUrl = "https://curtinaz.dev/inventario-api/public/api"; // LOCAL
 
 function uploadFile(
   file,
@@ -113,7 +113,7 @@ function get(
     headers: getHeaders(requiredAuthentication),
     success: successFunction,
     error: (error) => {
-      if (error.status == 401 || error.status == 0) {
+      if (error.status == 401) {
         window.location.href = 'login.html';
         console.log(error);
       }
