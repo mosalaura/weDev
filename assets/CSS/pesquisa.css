@@ -1,3 +1,10 @@
+:root {
+    --main-color: rgb(163, 53, 196);
+    --sec-color: rgb(67, 67, 67);
+    --light-grey: rgb(144, 144, 144);
+    --color-footer: rgb(106, 104, 104);
+}
+
 .div_title {
     width: 100%;
     display: flex;

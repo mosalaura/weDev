@@ -1,19 +1,19 @@
-## Anoto para não esquecer
+# Anoto para não esquecer
 
-Cores
+### Cores
 
 :root {
     --main-color: rgb(163, 53, 196);
     --sec-color: rgb(67, 67, 67);
     --light-grey: rgb(144, 144, 144);
     --color-footer: rgb(106, 104, 104);
-
-    /* ex de como usar = var(--light-grey); */
 }
 
-----------------------------------------
+    EX de como usar = var(--light-grey);
 
-Mobile 
+# -------------------------------------------------- #
+
+### Mobile 
 
 @media (max-width: 600px) {
     footer {
@@ -21,4 +21,4 @@ Mobile
     }
 }
 
-----------------------------------------
+# -------------------------------------------------- #

@@ -1,3 +1,9 @@
+:root {
+    --main-color: rgb(163, 53, 196);
+    --sec-color: rgb(67, 67, 67);
+    --color-footer: rgb(106, 104, 104);
+}
+
 /*   COMO FUNCIONA   */
 
 #title_one {
@@ -43,7 +49,7 @@
 
 .text_div p strong {
     font-size: 1.7rem;
-    color: rgb(157, 63, 185);
+    color: var(--main-color);
 }
 
 /* ESTAMOS AQUI POR VOCE */
@@ -97,7 +103,7 @@ footer {
     margin: 20px 0px 20px 0px;
     padding: 20px;
     font-size: 0.8rem;
-    color: rgb(106, 104, 104);
+    color: var(--color-footer);
     display: flex;
     justify-content: center;
 }

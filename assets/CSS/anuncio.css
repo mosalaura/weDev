@@ -3,8 +3,6 @@
     --sec-color: rgb(67, 67, 67);
     --light-grey: rgb(144, 144, 144);
     --color-footer: rgb(106, 104, 104);
-    
-    /* ex de como usar = var(--light-grey); */
 }
 
 #page_ad {

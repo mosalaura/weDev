@@ -1,3 +1,8 @@
+:root {
+    --main-color: rgb(163, 53, 196);
+    --color-footer: rgb(106, 104, 104);
+}
+
 header {
     border-bottom: 1px solid rgb(106, 104, 104);
     padding: 1%;
@@ -20,7 +25,7 @@ header h1 {
 }
 
 header h1 strong {
-    color: rgb(175, 55, 212);
+    color: var(--main-color);
 }
 
 /* pai da barra de pesquisa */
@@ -65,7 +70,7 @@ header a+a {
     padding: 12px;
     display: flex;
     justify-content: center;
-    background-color: rgb(175, 55, 212);
+    background-color: var(--main-color);
     color: #fff;
     border-style: none;
     border-radius: 25px;
