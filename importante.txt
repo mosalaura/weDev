@@ -1,0 +1,29 @@
+Cores
+
+:root {
+    --main-color: rgb(163, 53, 196);   (cor roxa)
+    --color: rgb(67, 67, 67);   (cor cinza)
+}
+
+----------------------------------------
+
+CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+----------------------------------------
+
+Mobile 
+
+@media (max-width: 600px) {
+    
+}
+
+----------------------------------------
