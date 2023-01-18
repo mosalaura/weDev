@@ -1,3 +1,5 @@
+## Anoto para não esquecer
+
 Cores
 
 :root {
@@ -7,19 +9,6 @@ Cores
     --color-footer: rgb(106, 104, 104);
 
     /* ex de como usar = var(--light-grey); */
-}
-
-----------------------------------------
-
-CSS
-
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: Arial;
-    box-sizing: border-box;
-    list-style: none;
 }
 
 ----------------------------------------
