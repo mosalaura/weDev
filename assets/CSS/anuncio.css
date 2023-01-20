@@ -31,7 +31,7 @@
 }
 
 .page_title {
-    width: 45%;
+    width: 40%;
     height: 200px;
     display: grid;
     align-content: stretch;
@@ -50,7 +50,7 @@
 .page_seller {
     border: 1px solid var(--light-grey);
     border-radius: 10px;
-    width: 25%;
+    width: 30%;
     margin-left: 20%;
     display: grid;
     align-content: space-around;
@@ -86,7 +86,7 @@
 }
 
 .description {
-    width: 75%;
+    width: 70%;
     padding: 15px 25px 10px 25px;
     border: 1px solid var(--light-grey);
     border-radius: 10px;
@@ -108,7 +108,7 @@
 /* GARANTIA - warranty */
 
 .warranty {
-    width: 25%;
+    width: 30%;
     height: 140px;
     margin-left: 20%;
     padding: 15px 25px 10px 25px;
@@ -139,7 +139,7 @@
 }
 
 .denounce a {
-    width: 57%;
+    width: 54%;
     margin-top: 8px;
     display: flex;
     justify-content: end;
@@ -152,7 +152,7 @@
 
 #questions {
     width: 100%;
-    margin: 100px 0px 10px 0px;
+    margin: 100px 0px;
     display: flex;
     justify-content: center;
 }
@@ -171,6 +171,11 @@
 }
 
 .questions h1 {
+    color: var(--main-color);
+}
+
+.questions h3 {
+    margin: 25px 0px 10px 0px;
     color: var(--sec-color);
 }
 
