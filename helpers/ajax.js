@@ -113,7 +113,7 @@ function get(
     headers: getHeaders(requiredAuthentication),
     success: successFunction,
     error: (error) => {
-      if (error.status == 401 && window.location.pathname != '/fazer_login.html')  {
+      if (error.status == 401 && window.location.pathname != '/fazer_login.html' && requiredAuthentication)  {
         window.location.href = 'fazer_login.html';
         console.log(error);
       }
@@ -144,13 +144,13 @@ function _get(
 
 function getHeaders(requiredAuthentication) {
   var headers = {};
+  var token = localStorage.getItem('authToken');
+  headers['Authorization'] = `Bearer ${token}`;
+
   if (requiredAuthentication) {
-    var token = localStorage.getItem('authToken');
     if (!token && window.location.pathname != '/fazer_login.html') {
-      return;
       window.location.href = 'fazer_login.html';
     }
-    headers['Authorization'] = `Bearer ${token}`;
   }
 
   return headers;
