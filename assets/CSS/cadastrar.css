@@ -43,6 +43,10 @@ header h2 strong {
     justify-content: center;
 }
 
+form input {
+    padding: 5px;
+}
+
 .input_label {
     display: block;
     color: #b6b6b6;
