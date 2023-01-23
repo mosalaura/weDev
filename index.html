@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="./assets/CSS/reset.css">
     <link rel="stylesheet" href="./assets/CSS/header.css">
     <link rel="stylesheet" href="./assets/CSS/index.css">
-    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
     <title>Inventario.me</title>
 </head>
 
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="module" src="./controllers/index.js"></script>
+<script type="module" src="./controllers/navbar.js"></script>
 
 <body>
 
@@ -30,9 +31,9 @@
         </form>
 
         <div class="buttons_logo">
-            <a id="btn_login" href="./fazer_login.html">Entrar</a>
-            <!-- <a id="btn_ad">Anunciar</a>
-            <a id="btn_cart">Carrinho</a> -->
+            <a id="btn_login" style="display: none;" href="./fazer_login.html">Entrar</a>
+            <a id="btn_ad" style="display: none;">Anunciar</a>
+            <a id="btn_cart" style="display: none;">Carrinho</a>
         </div>
     </header>
 
