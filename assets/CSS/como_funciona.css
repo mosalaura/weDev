@@ -9,6 +9,7 @@
 #title_one {
     text-align: center;
     margin: 70px 0px 50px 0px;
+    color: var(--sec-color);
 }
 
 /* astros é pai da section: texto e imagem (astro_div e text_div) */
