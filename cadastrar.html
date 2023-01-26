@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/CSS/reset.css">
     <link rel="stylesheet" href="./assets/CSS/cadastrar.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Cadastrar</title>
 </head>
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="module" src="./controllers/register.js"></script>
 <script type="module" src="./controllers/navbar.js"></script>
 
 <body>
@@ -38,7 +41,12 @@
                 <input type="tel" name="phone" id="phone" class="input_text" required>
 
                 <label for="password" class="input_label">Senha</label>
-                <input type="password" name="password" id="password" class="input_text" required>
+                <div id="password_controll">
+                    <input type="password" name="password" id="password" class="input_text" required>
+                    <span class="material-symbols-outlined" id="password_toggle">
+                        visibility
+                    </span>
+                </div>
 
                 <button type="submit" class="button">Cadastrar</button>
             </form>

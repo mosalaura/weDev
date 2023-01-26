@@ -123,6 +123,29 @@ form input {
     font-size: 0.8rem;
 }
 
+/* Password icon */
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+#password_controll {
+    position: relative;
+    width: 100%;
+}
+
+#password_toggle {
+    user-select: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    color: rgb(120, 120, 120)
+}
+
 @media (max-width: 600px) {
 
     header {
