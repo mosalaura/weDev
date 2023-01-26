@@ -30,3 +30,21 @@ $("form").submit((e) => {
         });
 
 });
+
+var passwordVisible = false;
+var passwordInput = $("#password")
+var passwordToggle = $("#password_toggle")
+
+$("#password_toggle").click(() => {
+
+    if (passwordVisible == true) {
+        passwordToggle.text('visibility');
+        passwordInput.prop('type', 'password');
+        passwordVisible = false;
+    } else {
+        passwordToggle.text('visibility_off');
+        passwordInput.prop('type', 'text');
+        passwordVisible = true;
+    }
+
+})
