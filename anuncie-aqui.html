@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="stylesheet" href="./assets/CSS/header.css">
+    <link rel="stylesheet" href="./assets/CSS/anuncie-aqui.css">
+    <title>Anuncie aqui!</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="module" src="./controllers/navbar.js"></script>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <h1> Inventario.<strong>me</strong></h1>
+            </a>
+        </div>
+
+        <form class="search" action="./pesquisa.html">
+            <input type="search" name="s" placeholder="Pesquisar">
+            <!-- <button type="submit">&#128269;</button> -->
+        </form>
+
+        <div class="buttons_logo">
+            <a id="btn_login" style="display: none;" href="./fazer_login.html">Entrar</a>
+            <a id="btn_ad" style="display: none;">Anunciar</a>
+            <a id="btn_cart" style="display: none;">Carrinho</a>
+        </div>
+    </header>
