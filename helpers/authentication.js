@@ -9,4 +9,8 @@ function logout() {
     localStorage.setItem('authToken', null);
 }
 
-export { login, logout };
+function register(data, success, error) {
+    post('/auth/register', data, success, error, false);
+}
+
+export { login, logout, register };
